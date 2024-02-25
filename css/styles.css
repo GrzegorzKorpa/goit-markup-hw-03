@@ -1,3 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
 /* body */
 .body-style {
   font-family: Roboto, sans-serif;
@@ -22,11 +43,6 @@
   color: #2e2f42;
 }
 
-/* Logo part-"studo" footer */
-.studiologo-footer {
-  color: #f4f4fd;
-}
-
 /* address */
 .address-style {
   font-style: normal;
@@ -36,12 +52,7 @@
 .header-ground {
   background-color: #fff;
 }
-.hero-ground {
-  background-color: #2e2f42;
-}
-.team-ground {
-  background-color: #f4f4fd;
-}
+
 .list-ground {
   background-color: #ffffff;
 }
@@ -76,28 +87,7 @@ ol {
 }
 
 /* text formatting */
-/* h1 */
-.h-one {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-/* h2 center */
-.h-two {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
-}
-/* h3 on left */
+/* h3 on left dla Section 1, Section 3-"Our Portfolio"*/
 .hthree-left {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -106,7 +96,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-/* h3 center */
+/* h3 center for Section 2-"Our Team"*/
 .hthree-center {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -125,7 +115,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* text center */
+/* text center for Section 2-"Our Team"*/
 .text-center {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -134,15 +124,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-}
-/* text footer */
-.text-footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
 
 /* center whole */
@@ -159,6 +140,7 @@ ol {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
+  font-style: normal;
 }
 .navi-menu:hover,
 .navi-menu:focus {
@@ -180,6 +162,37 @@ ol {
   color: #404bbf;
 }
 
+/* formating from the top */
+/* Section "header" */
+.header-flex {
+  display: flex;
+  margin-left: 141px;
+  height: 72px;
+  width: 1158px;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Section "Hero" */
+/* h1 */
+.hero-space {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.h-one {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-top: 197.5px;
+  word-break: normal;
+  padding-left: 472px;
+  padding-right: 472px;
+  text-align: center;
+  margin-bottom: 48px;
+}
 /* button */
 .bat-ton {
   font-family: "Roboto", sans-serif;
@@ -190,8 +203,127 @@ ol {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  margin-left: 636px;
 }
 .bat-ton:hover,
 .bat-ton:focus {
   background-color: #404bbf;
+}
+/* Section 1 "Effective..."*/
+/* nie wyznaczałem zakresu height i width dla tej sekcji */
+/* nagłówek h2, którego fizycznie nie ma jest "wyśrodkowany" na oko */
+/* h2 center */
+.h-two {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-left: 600px;
+  color: #2e2f42;
+}
+/*margin-top dla .sectionone-flex powinien być 120px, ale zrobiłem 80px, bo powyżej jest wcisnięty 
+nie wiem po co, ale jest wymagany, nagłówek h2 */
+.sectionone-flex {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  margin-left: 141px;
+  height: 104px;
+  width: 1158px;
+  justify-content: space-between;
+  gap: 24px;
+}
+/* Section 2 "Our Team" */
+.team-space {
+  background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
+}
+.sectiontwo-flex {
+  display: flex;
+  margin-left: 141px;
+  margin-bottom: 120px;
+  padding-top: 72px;
+  height: 380px;
+  width: 1158px;
+  justify-content: space-between;
+  gap: 24px;
+}
+.htwo-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-top: 120px;
+  padding-left: 600px;
+  color: #2e2f42;
+}
+/* Section 3 "Our Portfolio" */
+.sectionthree-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 141px;
+  margin-bottom: 120px;
+  padding-top: 72px;
+  height: 888px;
+  width: 1158px;
+  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 12px;
+}
+
+.htwo-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-top: 120px;
+  padding-left: 611px;
+  color: #2e2f42;
+}
+/* footer */
+.footer-ground {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+/* Logo part-"studo" footer */
+.studiologo-footer {
+  color: #f4f4fd;
+}
+/* text footer */
+.text-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footerlogo-position {
+  padding-left: 156px;
+  padding-top: 100px;
+}
+.footertext-position {
+  padding-left: 156px;
+  padding-top: 16px;
+  padding-right: 1020px;
+}
 }
