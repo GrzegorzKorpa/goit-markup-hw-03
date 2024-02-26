@@ -297,12 +297,12 @@ nie wiem po co, ale jest wymagany, nagłówek h2 */
   width: 1440px;
   height: 312px;
 
-  .footer-container {
+  .container {
     display: flex;
     flex-direction: column;
+    padding-left: 156px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
   }
 }
 .footer-logo {
