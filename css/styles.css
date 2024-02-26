@@ -19,7 +19,9 @@ ul {
   padding-left: 0;
 }
 
-img {display: block}
+img {
+  display: block;
+}
 
 /* body */
 .body-style {
@@ -294,6 +296,12 @@ nie wiem po co, ale jest wymagany, nagłówek h2 */
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+
+  .footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+  }
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -304,6 +312,8 @@ nie wiem po co, ale jest wymagany, nagłówek h2 */
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* Logo part-"studo" footer */
@@ -318,14 +328,5 @@ nie wiem po co, ale jest wymagany, nagłówek h2 */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.footerlogo-position {
-  padding-left: 156px;
-  padding-top: 100px;
-}
-.footertext-position {
-  padding-left: 156px;
-  padding-top: 16px;
-  padding-right: 1020px;
-}
+  max-width: 264px;
 }
