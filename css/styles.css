@@ -30,31 +30,9 @@ img {
   background-color: #ffffff;
 }
 
-/* logo whole*/
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #4d5ae5;
-}
-
-/* logo part-"studio" header */
-.studio-logo {
-  color: #2e2f42;
-}
-
 /* address */
 .address-style {
   font-style: normal;
-}
-
-/* backgraund */
-.header-ground {
-  background-color: #fff;
 }
 
 .list-ground {
@@ -136,22 +114,7 @@ ol {
 }
 
 /* logo */
-.navi-menu {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-  font-style: normal;
-}
-.navi-menu:hover,
-.navi-menu:focus {
-  color: #404bbf;
-}
 
-/* link */
 .link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -168,14 +131,63 @@ ol {
 
 /* formating from the top */
 /* Section "header" */
-.header-flex {
+
+.header-style {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
+}
+.header-general {
   display: flex;
-  margin-left: 141px;
-  height: 72px;
   width: 1158px;
-  justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-nav {
+  display: flex;
   align-items: center;
 }
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
+  color: #4d5ae5;
+}
+
+/* logo part-"studio" header */
+.studio-logo {
+  color: #2e2f42;
+}
+
+.menu-flex {
+  display: flex;
+  gap: 40px;
+}
+.navi-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+  padding: 24px 0;
+}
+.navi-menu:hover,
+.navi-menu:focus {
+  color: #404bbf;
+}
+
 /* Section "Hero" */
 /* h1 */
 .hero-space {
@@ -213,6 +225,7 @@ ol {
 .bat-ton:focus {
   background-color: #404bbf;
 }
+
 /* Section 1 "Effective..."*/
 /* nie wyznaczałem zakresu height i width dla tej sekcji */
 /* nagłówek h2, którego fizycznie nie ma jest "wyśrodkowany" na oko */
@@ -297,12 +310,6 @@ nie wiem po co, ale jest wymagany, nagłówek h2 */
   width: 1440px;
   height: 312px;
   padding: 100px 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 156px;
 }
 
 .footer-logo {
