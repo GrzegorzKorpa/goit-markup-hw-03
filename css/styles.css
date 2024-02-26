@@ -132,9 +132,6 @@ ol {
   padding-right: 15px;
 }
 
-.container-son {
-  justify-content: space-between;
-}
 .header-nav {
   display: flex;
   align-items: center;
