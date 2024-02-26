@@ -113,22 +113,6 @@ ol {
   text-align: center;
 }
 
-/* logo */
-
-.link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
-}
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-
 /* formating from the top */
 /* Section "header" */
 
@@ -144,7 +128,8 @@ ol {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-nav {
   display: flex;
@@ -168,10 +153,6 @@ ol {
   color: #2e2f42;
 }
 
-.menu-flex {
-  display: flex;
-  gap: 40px;
-}
 .navi-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -186,6 +167,33 @@ ol {
 .navi-menu:hover,
 .navi-menu:focus {
   color: #404bbf;
+}
+
+.menu-flex {
+  display: flex;
+  gap: 40px;
+}
+
+.address-style {
+  font-style: normal;
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+menu-telflex {
+  display: flex;
+  gap: 40px;
 }
 
 /* Section "Hero" */
