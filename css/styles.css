@@ -191,7 +191,7 @@ ol {
 .link:focus {
   color: #404bbf;
 }
-menu-telflex {
+.menu-telflex {
   display: flex;
   gap: 40px;
 }
