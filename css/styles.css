@@ -201,8 +201,7 @@ ol {
 /* h1 */
 .hero-space {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  padding: 188px 0;
 }
 .h-one {
   font-family: "Roboto";
@@ -211,24 +210,27 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-top: 197.5px;
   word-break: normal;
-  padding-left: 472px;
-  padding-right: 472px;
   text-align: center;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 /* button */
 .bat-ton {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
-  margin-left: 636px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: left 635.5px;
 }
 .bat-ton:hover,
 .bat-ton:focus {
