@@ -78,16 +78,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-/* h3 center for Section 2-"Our Team"*/
-.hthree-center {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
+
 /* text on left */
 .text-left {
   font-family: "Roboto", sans-serif;
@@ -95,16 +86,6 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-/* text center for Section 2-"Our Team"*/
-.text-center {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -286,19 +267,15 @@ ol {
 }
 
 /* Section 2 "Our Team" */
+
 .team-space {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
+  padding: 120px 0;
 }
 .sectiontwo-flex {
   display: flex;
-  margin-left: 141px;
-  margin-bottom: 120px;
-  padding-top: 72px;
-  height: 380px;
-  width: 1158px;
-  justify-content: space-between;
   gap: 24px;
 }
 .htwo-team {
@@ -308,10 +285,40 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-left: 600px;
+  margin-bottom: 72px;
+  text-align: center;
   color: #2e2f42;
 }
+.team-li {
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-job {
+  padding: 32px 16px;
+}
+
+/* h3 center for Section 2-"Our Team"*/
+.hthree-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+/* text center for Section 2-"Our Team"*/
+.text-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
 /* Section 3 "Our Portfolio" */
 .sectionthree-flex {
   display: flex;
