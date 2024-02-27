@@ -197,7 +197,7 @@ ol {
   gap: 40px;
 }
 
-/* Section "Hero" */
+/* Section 1 "Hero" */
 /* h1 */
 .hero-space {
   background-color: #2e2f42;
@@ -239,8 +239,13 @@ ol {
 
 /* Section 1 "Effective..."*/
 /* nie wyznaczałem zakresu height i width dla tej sekcji */
-/* nagłówek h2, którego fizycznie nie ma jest "wyśrodkowany" na oko */
+/* nagłówek h2 - jest ukrytu*/
 /* h2 center */
+
+.effective-general {
+  padding: 120px 0;
+}
+
 .h-two {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -251,18 +256,35 @@ ol {
   padding-left: 600px;
   color: #2e2f42;
 }
-/*margin-top dla .sectionone-flex powinien być 120px, ale zrobiłem 80px, bo powyżej jest wcisnięty 
-nie wiem po co, ale jest wymagany, nagłówek h2 */
-.sectionone-flex {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.effective-flex {
   display: flex;
-  margin-top: 80px;
-  margin-bottom: 120px;
-  margin-left: 141px;
-  height: 104px;
-  width: 1158px;
-  justify-content: space-between;
   gap: 24px;
 }
+.effective-li {
+  width: calc((100%-72px) / 4);
+}
+.effective-hthree {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
 /* Section 2 "Our Team" */
 .team-space {
   background-color: #f4f4fd;
